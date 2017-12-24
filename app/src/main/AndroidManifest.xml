@@ -28,6 +28,10 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".ServerService"
+            android:exported="false" />
+
         <activity
             android:name=".FileBrowser"
             android:label="@string/title_activity_file_browser"
