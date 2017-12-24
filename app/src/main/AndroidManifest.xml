@@ -31,6 +31,9 @@
         <service
             android:name=".ServerService"
             android:exported="false" />
+        <service
+            android:name=".ClientService"
+            android:exported="false" />
 
         <activity
             android:name=".FileBrowser"
